@@ -16,12 +16,16 @@
  
 
 
+<?php echo $Mixer_1?><br>
+<?php echo $Mixer_2?><br>
 
-<img src='<?php echo $Mixer_1?>'><br>
+<?php echo $nana?>
 
-<img src='<?php echo $Mixer_2?>'><br>
 
-<img src='<?php echo $Result?>'>
+
+
+
+
 
 
 

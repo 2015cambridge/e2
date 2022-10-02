@@ -13,8 +13,6 @@
 </style>
 <body>
 
- 
-
 
 <?php echo $Mixer_1?><br>
 <?php echo $Mixer_2?><br>

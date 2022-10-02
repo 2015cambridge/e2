@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+
+
+</style>
 <body>
 
  
-<h1>Paint Mixing Result</h1>
-<ul>
 
-<h2>The artist picked the "<?php echo $Mixer_1?>" color, <br>
-then added the "<?php echo $Mixer_2?>"" color,<br>
-so he/she got the "<?php echo $result?>"" color. </h2>
 
-   
-</ul>
+
+<img src='<?php echo $Mixer_1?>'><br>
+
+<img src='<?php echo $Mixer_2?>'><br>
+
+<img src='<?php echo $Result?>'>
+
+
+
+
 
 </body>
 </html>

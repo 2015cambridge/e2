@@ -7,17 +7,27 @@
     <title>Document</title>
 </head>
 <style>
-
-
-
+h1{
+  color:brown
+}
 </style>
+
 <body>
 
 
-<?php echo $Mixer_1?><br>
-<?php echo $Mixer_2?><br>
+ <h1>Artist Palette</h1>
 
-<?php echo $nana?>
+<?php foreach($colors as $color) { ?>
+
+<h3>The artist picked the: <?php echo $color['first']?> 
+</h3>
+<h3>He/she added the: <?php echo $color['second']?>
+ </h3>
+<h3>At the end he/she got the: <?php echo $color['final']?>
+</h3>
+<br>
+
+<?php } ?>
 
 
 
@@ -28,6 +38,6 @@
 
 
 
+<body>
+ <html>
 
-</body>
-</html>

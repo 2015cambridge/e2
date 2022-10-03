@@ -24,7 +24,7 @@ for ($c=0; $c<3; $c++) {
         $artist_color=$Mixer_1;
     }
 
-// Storing the results in an array so we can call them from the view file
+// Storing the results in an array so we can call them from the view file.
     $colors[]=[
     'first' => $Mixer_1,
       'second' => $Mixer_2,

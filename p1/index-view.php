@@ -15,16 +15,14 @@ h1{
 <body>
 
 
- <h1>Artist Palette</h1>
+ <h1>Artist Palette</h1> <br>
 
+<!-- Displaying the results stored in the array in the index file -->
 <?php foreach($colors as $color) { ?>
 
-<h3>The artist picked the: <?php echo $color['first']?> 
-</h3>
-<h3>He/she added the: <?php echo $color['second']?>
- </h3>
-<h3>At the end he/she got the: <?php echo $color['final']?>
-</h3>
+<h3>The artist picked the:<em> <?php echo $color['first']?> </em></h3>
+<h3>He/she added the:<em> <?php echo $color['second']?></em></h3>
+<h3>At the end he/she got the:<em> <?php echo $color['final']?></em></h3>
 <br>
 
 <?php } ?>

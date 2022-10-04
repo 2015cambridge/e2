@@ -10,11 +10,12 @@
     <title>Document</title>
 </head>
 <style>
+/* styling the header */
 h1{
   color:brown
 }
-
-  img{
+/* styling the images  */
+img{
     border-radius:50%;
     position:relative;
   top:10px
@@ -24,9 +25,9 @@ h1{
 <body>
 
 
- <h1> Artist Palette - CMYK</h1> <br>
+ <h1> Artist Palette - CMY</h1> <br>
 
-
+<!-- looping through all the the stored array  from the index file and acccessing all data stored in that array -->
 <?php foreach($colors as $color) { ?>
 
 <p>The artist picked the: &nbsp <img src='<?php echo $color['first'] ?>'>  &nbsp &nbsp

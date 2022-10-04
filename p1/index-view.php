@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,22 +13,35 @@
 h1{
   color:brown
 }
+
+  img{
+    border-radius:50%;
+    position:relative;
+  top:10px
+  }
 </style>
 
 <body>
 
 
- <h1>Artist Palette</h1> <br>
+ <h1> Artist Palette - CMYK</h1> <br>
 
-<!-- Displaying the results stored in the array in the index file -->
+
 <?php foreach($colors as $color) { ?>
 
-<h3>The artist picked the:<em> <?php echo $color['first']?> </em></h3>
-<h3>He/she added the:<em> <?php echo $color['second']?></em></h3>
-<h3>At the end he/she got the:<em> <?php echo $color['final']?></em></h3>
+<p>The artist picked the: &nbsp <img src='<?php echo $color['first'] ?>'>  &nbsp &nbsp
+  Then added the: &nbsp <img src='<?php echo $color['second'] ?>'> &nbsp &nbsp
+  So the artsit gets : &nbsp <img src='<?php echo $color['final'] ?>'></p>  &nbsp &nbsp
 <br>
 
+  
+ 
 <?php } ?>
+
+
+
+
+
 
 
 

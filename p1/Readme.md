@@ -17,4 +17,4 @@
 
 ## Notes for instructor
 
-- I would love to know how to manipulate the index file so it shows the results as color (placeholder images) or HEX colors.
+- I would love to know how to display both the color image and the color name

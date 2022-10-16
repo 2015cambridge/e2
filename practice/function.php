@@ -1,42 +1,24 @@
 <?php
 
+
 function vowelCount($word)
 {
 
+    $count=0;
+    $lenght = strlen($word);
     $result= str_split($word);
-  
-
-
-    $i=0;
+    for ($i= 0; $i<$lenght; $i++) {
+        if ($word[$i] =='a' ||  $word[$i]=='e' || $word[$i] =='u' ||  $word[$i]=='i' || $word[$i]=='0'  ) {
+       $count+=1;
     
-    for ($i= 0; $i<10; $i++) {
-        if ($result[$i] =='a' ||  $result[$i]=='e' || $result[$i] =='u' ||  $result[$i]=='i' ||  $result[$i]=='0'  ) {
-       $i++;
-           return;
-
         } else {
-   
           Echo 'No vowels found';
           return;
+        }
+    }
+echo "Number of Vowels is: $count ";
 
-        };
-    };
-
-
-};
-
-    
- var_dump (vowelCount('apple'));
+}
+vowelCount('ddd');
  
-
-
-
-
-
 ?>
-
-
-
-
-
-

@@ -1,0 +1,19 @@
+{
+  "1": {
+    "firstName": "George ",
+    "lastName": "Washington",
+    "age": 300
+  },
+
+  "2": {
+    "firstName": "John F.",
+    "lastName": "kennedy",
+    "age": 50
+  },
+
+  "3": {
+    "firstName": "Thomas",
+    "lastName": "Jeferson",
+    "age": 250
+  }
+}

@@ -21,6 +21,7 @@
 
     <h1>Results</h1>
 
+  
     <?php if ($haveAnswer == false) { ?>
     Please enter an answer.
     <?php } elseif ($correct) { ?>

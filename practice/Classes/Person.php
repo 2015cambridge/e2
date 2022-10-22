@@ -24,7 +24,7 @@ $this->Person= json_decode($json, true);
 
 public function fullName(int $id){
 
-return $this->Person [$firstName].[$lastName];
+return $this->firstName." ".$this->lastName;
  }
 
 

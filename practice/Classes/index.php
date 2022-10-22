@@ -7,9 +7,9 @@ require 'Person.php';
 
 $Person= new Person('Person.json');
 
-$product=$Person->fullName(2);
+$name=$Person->fullName(1);
 
-var_dump($product);
+var_dump($name);
 
 
 

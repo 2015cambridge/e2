@@ -20,9 +20,7 @@
     
 <h3>Pick at least two color to mix them</h3>
 <di>
-<input class='red' type='checkbox' id='red' name ='color1' value='red' <?php echo ( $first== 'red') ? 'checked' : '' ?> ><label for='red'>Red</label>
-<input class='blue' type='checkbox' id='blue' name ='color2' value='blue' <?php echo ( $second == 'blue') ? 'checked' : '' ?>> <label for='blue'>Blue</label>
-<input class='yellow'  type='checkbox' id='yellow' name ='color3' value='yellow' <?php echo ($third == 'yellow') ? 'checked' : '' ?> ><label for='yellow'>Yellow</label></div>
+<input class='red' type='checkbox' id='red' name ='color1' value='red' <?php echo ( $first == 'red') ? 'checked' : '' ?> ><label for='red'>Red</label>
 
 
 

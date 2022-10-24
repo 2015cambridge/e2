@@ -12,7 +12,7 @@ if(isset($_SESSION['results'])){
        $error= $_SESSION['results']['error'];
 
 
-
+  $_SESSION['results'] = null;
 
 }
 

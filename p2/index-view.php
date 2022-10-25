@@ -37,7 +37,7 @@
 <h3>Your final mix:</h3>
 
  <div > <img src='<?php echo $artist_color ?>'></div>
- </div>
+
 </form>
 
 

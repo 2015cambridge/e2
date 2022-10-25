@@ -24,9 +24,6 @@
 <input class='blue'  type='checkbox' id='blue' name ='color2' value='blue' <?php echo (isset($second) and $second  == 'blue') ? 'checked' : '' ?> ><label for='blue'>blue</label>
 <input class='yellow'  type='checkbox' id='yellow' name ='color3' value='yellow' <?php echo (isset($third) and $third == 'yellow') ? 'checked' : '' ?> ><label for='yellow'>Yellow</label></div>
 
-
-
-
 </div>
 
   

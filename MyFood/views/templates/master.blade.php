@@ -8,7 +8,8 @@
 
     <link rel='shortcut icon' href='/favicon.ico'>
 
-    <link href='/css/app.css' rel='stylesheet'>
+    <!-- <link href='/css/app.css' rel='stylesheet'> -->
+        <link href='/css/MyFood.css' rel='stylesheet'>
 
     @yield('head')
 
@@ -16,7 +17,7 @@
 <body>
 
 <header>
-    <img id='logo' src='/images/hes-logo.png' alt='Harvard Extension School Logo'>
+    <img id='logo' src='/images/myFood.jpg' alt='Harvard Extension School Logo'>
     <h1>{{ $app->config('app.name') }}</h1>
 </header>
 
